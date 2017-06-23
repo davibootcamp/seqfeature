@@ -4,7 +4,7 @@ def n_neg(seq):
     """Number of negative residues a protein sequence"""
 
     # Convert sequence to upper case
-    seq = seq.upper()
+    # seq = seq.upper()
 
     for aa in seq:
         if aa not in bioinfo_dicts.aa.keys():
